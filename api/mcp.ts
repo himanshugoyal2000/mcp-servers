@@ -1,6 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { createServer } from "../lib/server.js";
+import { createServer } from "../lib/server";
 
 export default async function handler(req: IncomingMessage, res: ServerResponse) {
   // Parse body manually since we're not using a framework

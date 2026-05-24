@@ -1,6 +1,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { EMPLOYEES } from "./employees.js";
+import { EMPLOYEES } from "./employees";
 
 export function createServer() {
   const server = new McpServer({
