@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Team Directory MCP server — deployed on Vercel as a Streamable HTTP endpoint",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'No build step needed — Vercel handles TypeScript compilation'"
+    "dev": "vercel dev"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.1",
