@@ -1,6 +1,7 @@
 {
   "name": "team-directory-mcp",
   "version": "1.0.0",
+  "type": "module",
   "description": "Team Directory MCP server — deployed on Vercel as a Streamable HTTP endpoint",
   "scripts": {
     "dev": "vercel dev"
